@@ -1,0 +1,78 @@
+[
+  {
+    "index_page": {
+      "title": "157 world currency converter",
+      "meta_desc": "",
+      "h1": "Free converter of 157 currencies",
+      "p_after_h1": ""
+    },
+    "currencies_page": {
+      "title": "How many currencies in the world?",
+      "meta_desc": "",
+      "h1": "Full list of currencies",
+      "p_after_h1": ""
+    },
+    "currency_page": {
+      "title": "",
+      "meta_desc": "",
+      "h1": "`${currency_code} — Exchange rate of ${currency.name} today`",
+      "p_after_h1": "`The course of ${currency.name} today`"
+    },
+    "ctc_page": {
+      "title": "`${amount} ${currency_code} to ${currency_code_to} rate = ${rate_for_amount} ${currency_to_obj.name}`",
+      "meta_desc": "`Updated ${currency_code} to ${currency_code_to} rate. Calculate your amounts in the calculator to correctly and without loss transfer the currency from ${currency_code} to ${currency_code}.`",
+      "h1": "`${amount} ${currency_code} to ${currency_code_to} = ${rate_for_amount} ${currency_to_obj.name}`",
+      "p_after_h1": "`The course of ${amount} ${currency_from_obj.name} to the ${currency_to_obj.name} is ${rate_for_amount} ${currency_to_obj.name}`"
+    },
+    "ctcwa_page": {
+      "title": "`How much is ${amount} ${currency_from_obj.sign} in ${currency_to_obj.sign}`",
+      "meta_desc": "`How much will be ${amount} ${currency_from_obj.name} in ${currency_to_obj.name}. Use the calculator to convert from ${amount} ${currency_from_obj.sign} to ${currency_to_obj.sign} correctly.`",
+      "h1": "",
+      "p_after_h1": ""
+    },
+    "ctc_date_page": {
+      "title": "",
+      "meta_desc": "",
+      "h1": "",
+      "p_after_h1": ""
+    },
+    "chart_header": "`Chart of changes in the exchange rate of ${amount} ${currency_from_obj.name} to the ${currency_to_obj.name}`",
+    "rates_text": "`Convert ${currency_code} to ${currency_code_to}`",
+    "rates_text_reverse": "`Convert ${currency_code_to} to ${currency_code}`",
+    "popular_currencies": "Popular Currency",
+    "currencies_pairs": "Currency pairs",
+    "more": "More currencies",
+    "full_list": "Full list of currencies",
+    "convert": "Convert",
+    "language_word": "Language",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "lang_selection": "Language Selection",
+    "set_standart": "Set Standart",
+    "start_typing": "Start to type",
+    "popular_word": "Popular",
+    "back": "Back",
+    "see_more": "see more",
+    "interesting_facts": "Interesting facts",
+    "your_language": "Your language",
+    "statistics": "`Statistics ${currency_code} to ${currency_code_to}`",
+    "in": "in",
+    "year_select": "Year",
+    "month_select": "Month",
+    "months": "Months",
+    "years": "Years",
+    "six_month": "6 months",
+    "three_month": "3 months",
+    "max": "Max",
+    "min": "Min",
+    "yesterday": "Yesterday",
+    "today": "Today",
+    "footer_text": {
+      "agreement": "By using wm-ex.com, you agree to the use of cookies.",
+      "copyright": "© 1995—2019. Site wm-ex.com",
+      "rule_1": "The materials presented in this section are not individual investment recommendations. Financial instruments or operations mentioned in this section may not be suitable for you, may not correspond to your investment profile, financial situation, investment experience, knowledge, investment goals, attitude to risk and profitability. Determining the compliance of a financial instrument or transaction with investment objectives, the investment horizon and risk tolerance is the task of the investor. The site wm-ex.com is not responsible for possible losses of the investor in the event of transactions or investing in financial instruments mentioned in this section.",
+      "rule_2": "Information cannot be considered as a public offer, offer or invitation to purchase, or sell any securities, other financial instruments, to make transactions with them. Information cannot be considered as guarantees or promises in the future of the return on investment, the level of risk, the amount of costs, the break-even of investments. The result of investing in the past does not determine future income. It is not an advertisement of securities. Before making an investment decision, the Investor needs to independently evaluate the economic risks and benefits, tax, legal, accounting consequences of the transaction, their willingness and ability to accept such risks. The client also bears the costs of paying brokerage and depository services, submitting orders by phone, and other expenses that are subject to."
+    }
+  }
+]
