@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const MainCurrencyForm = ({data}) => {
 
@@ -160,6 +161,9 @@ const MainCurrencyForm = ({data}) => {
                         />
                     <span onClick={()=>amountHandler(5)}>+5</span>
                 </div>
+                <Link to={`/${data.language.code}/currency/${formState.from.code}/${formState.to.code}/${formState.amount}`}>
+                    TEST
+                </Link>
                 <a 
                     href={`/${data.language.code}/currency/${formState.from.code}/${formState.to.code}/${formState.amount}`} 
                     className="btn" 

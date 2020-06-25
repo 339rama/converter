@@ -1,6 +1,5 @@
 import React from "react";
 import { useRoutes } from "./routes";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 

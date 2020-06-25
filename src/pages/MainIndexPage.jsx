@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MainCurrencyForm from "../components/MainCurrencyForm";
 import GetTime from "../components/GetTime";
 import { useParams } from "react-router-dom";
 import CurrenciesListSliced from "../components/CurrenciesListSliced";
+import { useDispatch } from "react-redux";
+import { loadCurrencies } from "../modules/currencies/store/main";
 
 const MainIndexPage = ({ data }) => {
+  const dispatch = useDispatch();
+  useEffect(()=>{
+    console.log(data.currencies);
+    
+    dispatch(loadCurrencies(data.currencies))
+  },[])
   return (
     <>
       <h1>{data.text.index_h1}</h1>

@@ -26,4 +26,11 @@ let words = {
   currency_code_to: "USD",
 };
 
-console.log(prepareText(pageObj, {currency_code: 'RUB'}));
+// console.log(prepareText(pageObj, {currency_code: 'RUB'}));
+require('isomorphic-fetch')
+const fetchData = async (url) => {
+  let response  = await fetch(url);
+  let data = await response.json();
+  console.log(data);
+}
+// fetchData('https://jsonplaceholder.typicode.com/todos/');

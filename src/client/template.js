@@ -1,4 +1,4 @@
-export default ({ body, data }) => {
+export default ({ body, data, preloadedState }) => {
     const data_ = JSON.parse(data)
     return `
         <html lang="${data_.language.code}">
@@ -15,6 +15,9 @@ export default ({ body, data }) => {
             <script>
                 window.STATE = ${data};
                 localStorage.setItem('DATA', ${JSON.stringify(data)})
+                window.__PRELOADED_STATE__ = ${JSON.stringify(
+                    preloadedState
+                    ).replace(/</g, "\\u003c")}
             </script>
         </head>
         <body>
